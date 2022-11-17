@@ -20,12 +20,16 @@ import Cocoa
 //    print(g)
 //}
 
+// previous number
 var f: Double = 0
+// current
 var g: Double = 1
+// previous, previous
 var h: Double = 420
 print(f)
+print("")
 print(g)
-for i in  1...1476 {
+for _ in  1...1476 {
     h = g
     g = g + f
     f = h
@@ -33,4 +37,3 @@ for i in  1...1476 {
     print("")
     print(text)
 }
-
